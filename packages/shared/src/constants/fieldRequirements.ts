@@ -22,6 +22,9 @@ export const uniqueName = (t: TFunction, fieldName: string) =>
 
 export const cannotBeEmpty = (t: TFunction) => t('Cannot be empty');
 
+export const uniqueDeviceClass = (t: TFunction) =>
+  t('Choose a unique device class name that is not present in the deviceSet.');
+
 export const fieldRequirementsTranslations = {
   maxChars,
   minChars,
@@ -31,4 +34,5 @@ export const fieldRequirementsTranslations = {
   cannotBeUsedBeforeInNamespace,
   uniqueName,
   cannotBeEmpty,
+  uniqueDeviceClass,
 };
