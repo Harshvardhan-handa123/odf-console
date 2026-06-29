@@ -14,7 +14,7 @@ import { getInfrastructurePlatform } from '@odf/shared/utils';
 import { useFlag } from '@openshift-console/dynamic-plugin-sdk';
 import { ModalComponent } from '@openshift-console/dynamic-plugin-sdk/lib/app/modal-support/ModalProvider';
 import { Modal } from '@patternfly/react-core/deprecated';
-import { useNavigate } from 'react-router-dom-v5-compat';
+import { useNavigate } from 'react-router';
 import {
   Flex,
   FlexItem,
